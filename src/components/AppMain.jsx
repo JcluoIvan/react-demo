@@ -22,6 +22,11 @@ class AppMain extends React.Component {
 
     }
 
+    componentWillUnmount () {
+        AppStore.removeListener('add.data', this._onUpdated);
+        AppStore.removeListener('remove.data', this._onUpdated);
+    }
+
 
     onUpdated() {
         console.log(AppStore.getDataRows());
