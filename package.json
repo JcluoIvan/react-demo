@@ -1,0 +1,55 @@
+{
+  "name": "react-sg0_c",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --devtool eval --config webpack.config.development.js --progress --host 127.0.0.1 --colors --port 8000 --hot --content-base www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JcluoIvan/react-material.git"
+  },
+  "keywords": [
+    "material",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JcluoIvan/react-material/issues"
+  },
+  "homepage": "https://github.com/JcluoIvan/react-material#readme",
+  "dependencies": {
+    "flux": "2.1.1",
+    "jcluo-react-raf": "0.0.4",
+    "jcluo-react-event-listener": "0.0.3",
+    "jquery": "^2.1.4",
+    "keymirror": "0.1.1",
+    "react": ">=0.14.3",
+    "react-addons-css-transition-group": ">=0.14.3",
+    "react-dom": ">=0.14.3",
+    "socket.io-client": "1.4.4"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.29",
+    "babel-loader": "^5.3.3",
+    "babel-plugin-react-transform": "^1.1.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "babel-runtime": "^5.8.29",
+    "css-loader": ">=0.15.6",
+    "core-js": "^1.2.6",
+    "express": "^4.13.3",
+    "less-loader": "^2.2.2",
+    "node-sass": "^3.3.3",
+    "postcss-loader": "^0.8.0",
+    "react-hot-loader": "^1.3.0",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
